@@ -10,20 +10,26 @@
 <body>
     
 
-<header>
-    @include('templates.header')
-</header>
+    <header>
+        @include('templates.header')
 
-<main>
-    <div class="container-fluid">
-        @include('templates.comics')
-    </div>
-</main>
+        <div class="jumbo-container">
+        </div>
+    
+    </header>
 
 
-<footer>
-    @include('templates.footer')
-</footer>
+    
+    <main>
+        <div class="container-fluid">
+            @include('templates.comics')
+        </div>
+    </main>
+
+
+    <footer>
+        @include('templates.footer')
+    </footer>
 
 
 </body>

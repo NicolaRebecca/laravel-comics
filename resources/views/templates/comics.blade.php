@@ -5,6 +5,30 @@
             <h4>{{ $comic['series']}}</h4>
         </div>
 @endforeach
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
 
 

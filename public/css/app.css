@@ -35,21 +35,56 @@ header nav .nav-menu ul li {
   list-style: none;
   margin-left: 18px;
 }
+header .jumbo-container {
+  height: 420px;
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+}
 
 main .container-fluid {
+  padding-top: 30px;
+  padding-left: 80px;
+  color: white;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
   background-color: #292828;
 }
 main .container-fluid .comic {
+  font-size: 14px;
+  text-align: center;
   width: calc(100% / 6);
+}
+main .container-fluid .comic img {
+  width: 150px;
+  height: 180px;
 }
 
 footer {
   color: white;
   background-image: url("/images/footer-bg.jpg");
   background-size: cover;
+}
+footer .blue-row {
+  background-color: #0282f9;
+  color: white;
+  padding: 50px 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .blue-row .content {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+footer .blue-row .content .content-text {
+  white-space: nowrap;
+}
+footer .blue-row .content img {
+  max-height: 40px;
+  max-width: 40px;
+  margin-right: 10px;
 }
 footer .container {
   overflow: hidden;

@@ -48,16 +48,35 @@ header{
             }
         }
 
-
-
     }
+
+    .jumbo-container{
+        height: 420px;
+        background-image: url('/images/jumbotron.jpg');
+        background-size: cover;
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 main{
 
     .container-fluid{
+        padding-top:30px;
+        padding-left:80px;
+        color: white;
         display: flex;
         flex-wrap: wrap;
         
@@ -65,16 +84,50 @@ main{
         background-color: rgb(41, 40, 40);
 
         .comic{
+            font-size: 14px;
+            text-align: center;
             width: calc(100% / 6) ;
+
+            img{
+                width: 150px;
+                height: 180px;
+            }
         }
     }
-
 
 }
 
 
 
+
+
 footer{
+
+    .blue-row{
+        background-color: rgb(2, 130, 249);
+        color: white;
+        padding: 50px 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+        .content {
+        color: white;
+        display: flex;
+        align-items: center;  
+        
+            .content-text {
+                white-space: nowrap;
+            }
+
+            img {
+                max-height: 40px;
+                max-width: 40px;
+                margin-right: 10px;
+            }
+        }
+    }
+    
     color: white;
     background-image: url('/images/footer-bg.jpg');
     background-size: cover;

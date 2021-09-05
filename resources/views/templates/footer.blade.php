@@ -1,3 +1,37 @@
+<div class="blue-row">
+
+    <div class="content">
+        <img src="./images/buy-comics-digital-comics.png" alt="" />
+        <div class="content-text">DIGITAL COMICS</div>
+    </div>
+
+    <div class="content">
+        <img src="./images/buy-comics-merchandise.png" alt="" />
+        <div class="content-text">DC MERCHANDISE</div>
+    </div>
+
+    <div class="content">
+        <img src="./images/buy-comics-subscriptions.png" alt="" />
+        <div class="content-text">SUBSCRIPTION</div>
+    </div>
+        
+    <div class="content">
+        <img src="./images/buy-comics-shop-locator.png" alt="" />
+        <div class="content-text">COMIC SHOP LOCATOR</div>
+    </div>
+        
+    <div class="content">
+        <img src="./images/buy-dc-power-visa.svg" alt="" />
+        <div class="content-text">DC POWER VISA</div>
+    </div>
+        
+
+</div>
+
+
+
+
+
 <div class="container">
 
     <div class="list-container">
